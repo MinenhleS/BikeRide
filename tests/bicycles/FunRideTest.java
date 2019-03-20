@@ -55,7 +55,7 @@ public class FunRideTest {
         funRide.accept(bicycle2);
         funRide.accept(bicycle3);
         funRide.accept(bicycle1);
-
+        funRide.accept(bicycle3);
 
 
         assertEquals(funRide.getEnteredCount(), 3);
