@@ -23,11 +23,17 @@ public class FunRide {
     public void accept(Bicycle bicycle){
 
             if(maxNum > totCountBikes) {
-                //if(list.contains(Bicycle1))
 
-               list.add(bicycle);
-               totCountBikes ++;
-               System.out.println("Accepted");
+
+                    if (!list.contains(bicycle)) {
+                        list.add(bicycle);
+
+                        totCountBikes++;
+
+                        System.out.println("Accepted");
+                    }
+
+
             }
             else{
 
@@ -37,7 +43,7 @@ public class FunRide {
 
     public int getCountForType(BicycleType bicycleType){
         int countBike = 0;
-        //this.bicycleSpecification.getBicycleType();
+
         for(int i = 0; i < list.size();i++){
 
 

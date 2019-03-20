@@ -21,7 +21,7 @@ public class BicycleTypeTest {
             BikeRideOne bikeRide = new BikeRideOne(bicycle);
             bikeRide.ride();
 
-            //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
             assertEquals(roadBikeSpec.getAccelerationSpeed(),11);
             assertEquals(roadBikeSpec.getBrakeSpeed(), -4);
             assertEquals(roadBikeSpec.getBicycleType().toString(),"RoadBike");
@@ -36,7 +36,7 @@ public class BicycleTypeTest {
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),5);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -3);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"MountainBike");
@@ -52,7 +52,7 @@ public class BicycleTypeTest {
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),12);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -7);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"Tandem");
@@ -67,7 +67,7 @@ public class BicycleTypeTest {
         BikeRidetwo bikeRide = new BikeRidetwo(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),11);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -4);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"RoadBike");
@@ -82,7 +82,7 @@ public class BicycleTypeTest {
         BikeRidetwo bikeRide = new BikeRidetwo(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),5);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -3);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"MountainBike");
@@ -98,7 +98,7 @@ public class BicycleTypeTest {
         BikeRidetwo bikeRide = new BikeRidetwo(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),12);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -7);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"Tandem");
@@ -113,7 +113,7 @@ public class BicycleTypeTest {
         BikeRideThree bikeRide = new BikeRideThree(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),11);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -4);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"RoadBike");
@@ -128,7 +128,7 @@ public class BicycleTypeTest {
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),5);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -3);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"MountainBike");
@@ -145,7 +145,7 @@ public class BicycleTypeTest {
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
-        //System.out.println(roadBikeSpec.getAccelerationSpeed());
+
         assertEquals(roadBikeSpec.getAccelerationSpeed(),12);
         assertEquals(roadBikeSpec.getBrakeSpeed(), -7);
         assertEquals(roadBikeSpec.getBicycleType().toString(),"Tandem");

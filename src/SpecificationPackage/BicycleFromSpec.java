@@ -5,7 +5,7 @@ import bicycles.BicycleBase;
 public class BicycleFromSpec extends BicycleBase {
     private final BicycleSpecification bicycleSpecification;
 
-//    Bicycle bicycle = new Bicycle();
+
 
 
     public BicycleFromSpec(BicycleSpecification bicycleSpecification) {

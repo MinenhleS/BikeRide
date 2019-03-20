@@ -1,4 +1,4 @@
-package BikePackage;
+package bicycles;
 import bicycles.Bicycle;
 
 public interface BikeRide {
