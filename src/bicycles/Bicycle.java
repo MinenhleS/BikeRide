@@ -1,5 +1,7 @@
 package bicycles;
 
+import SpecificationPackage.BicycleType;
+
 public interface Bicycle {
 
      void accelerate();

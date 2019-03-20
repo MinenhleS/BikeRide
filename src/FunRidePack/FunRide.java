@@ -1,7 +1,9 @@
-package bicycles;
+package FunRidePack;
+
+import SpecificationPackage.BicycleType;
+import bicycles.Bicycle;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class FunRide {
 
@@ -21,6 +23,7 @@ public class FunRide {
     public void accept(Bicycle bicycle){
 
             if(maxNum > totCountBikes) {
+                //if(list.contains(Bicycle1))
 
                list.add(bicycle);
                totCountBikes ++;

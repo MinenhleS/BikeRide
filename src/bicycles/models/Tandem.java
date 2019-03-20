@@ -1,7 +1,7 @@
 /* bicycles.models;
 
 import bicycles.BicycleBase;
-import bicycles.BicycleType;
+import SpecificationPackage.BicycleType;
 
 public class Tandem extends BicycleBase {
 

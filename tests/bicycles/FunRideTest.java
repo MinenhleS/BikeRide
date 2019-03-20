@@ -1,5 +1,9 @@
 package bicycles;
 
+import FunRidePack.FunRide;
+import SpecificationPackage.BicycleFromSpec;
+import SpecificationPackage.BicycleSpecification;
+import SpecificationPackage.BicycleType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -16,18 +20,16 @@ public class FunRideTest {
         Bicycle bicycle2 = new BicycleFromSpec(mountainBikeSpec);
         Bicycle bicycle3 = new BicycleFromSpec(tandemBikeSpec);
 
-        FunRide funRide = new FunRide(5);
+        FunRide funRide = new FunRide(2);
 
         funRide.accept(bicycle1);
         funRide.accept(bicycle2);
-        funRide.accept(bicycle1);
         funRide.accept(bicycle3);
-        funRide.accept(bicycle1);
-        funRide.accept(bicycle2);
 
 
-        assertEquals(funRide.getEnteredCount(), 5);
-        assertEquals(funRide.getCountForType(BicycleType.RoadBike), 3);
+
+        assertEquals(funRide.getEnteredCount(), 2);
+        assertEquals(funRide.getCountForType(BicycleType.RoadBike), 1);
 
 
 
@@ -47,12 +49,10 @@ public class FunRideTest {
 
         FunRide funRide = new FunRide(3);
 
+        funRide.accept(bicycle2);
         funRide.accept(bicycle1);
-        funRide.accept(bicycle2);
         funRide.accept(bicycle3);
-        funRide.accept(bicycle2);
-        funRide.accept(bicycle2);
-        funRide.accept(bicycle2);
+
 
 
         assertEquals(funRide.getEnteredCount(), 3);
@@ -73,14 +73,14 @@ public class FunRideTest {
         FunRide funRide = new FunRide(5);
 
         funRide.accept(bicycle3);
-        funRide.accept(bicycle3);
+        funRide.accept(bicycle2);
         funRide.accept(bicycle1);
-        funRide.accept(bicycle3);
 
 
 
-        assertEquals(funRide.getEnteredCount(), 4);
-        assertEquals(funRide.getCountForType(BicycleType.Tandem), 3);
+
+        assertEquals(funRide.getEnteredCount(), 3);
+        assertEquals(funRide.getCountForType(BicycleType.Tandem), 1);
 
 
 

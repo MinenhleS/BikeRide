@@ -1,8 +1,11 @@
 package bicycles;
 
-import bicycles.models.BikeRideThree;
-import bicycles.models.BikeRidetwo;
-import bicycles.models.RoadBike;
+import BikePackage.BikeRideOne;
+import BikePackage.BikeRideThree;
+import BikePackage.BikeRidetwo;
+import SpecificationPackage.BicycleFromSpec;
+import SpecificationPackage.BicycleSpecification;
+import SpecificationPackage.BicycleType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

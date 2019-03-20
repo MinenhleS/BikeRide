@@ -1,8 +1,5 @@
 package bicycles;
 
-import bicycles.Bicycle;
-import bicycles.BikeRide;
-
 public abstract class BicycleBase implements Bicycle {
 
     protected int speed;

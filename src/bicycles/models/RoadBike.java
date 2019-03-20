@@ -2,7 +2,7 @@ package bicycles.models;
 
 /*
 import bicycles.BicycleBase;
-import bicycles.BicycleType;
+import SpecificationPackage.BicycleType;
 
 public class RoadBike extends BicycleBase {
 

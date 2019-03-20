@@ -1,4 +1,4 @@
-package bicycles;
+package SpecificationPackage;
 
 public enum BicycleType {
 

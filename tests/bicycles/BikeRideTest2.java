@@ -1,6 +1,6 @@
 /*package bicycles;
 
-import bicycles.models.BikeRidetwo;
+import BikePackage.BikeRidetwo;
 import bicycles.models.MountainBike;
 import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
