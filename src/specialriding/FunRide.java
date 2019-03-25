@@ -1,4 +1,4 @@
-package someriding;
+package specialriding;
 
 import specbicycle.BicycleType;
 import bicycles.Bicycle;

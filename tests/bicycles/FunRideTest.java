@@ -1,6 +1,6 @@
 package bicycles;
 
-import someriding.FunRide;
+import specialriding.FunRide;
 import specbicycle.BicycleFromSpec;
 import specbicycle.BicycleSpecification;
 import specbicycle.BicycleType;
