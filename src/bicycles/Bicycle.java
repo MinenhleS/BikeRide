@@ -1,6 +1,6 @@
 package bicycles;
 
-import specbicycle.BicycleType;
+import bicycles.specbicycle.BicycleType;
 
 public interface Bicycle {
 

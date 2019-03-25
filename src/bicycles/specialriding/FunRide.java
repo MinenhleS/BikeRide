@@ -1,6 +1,6 @@
-package specialriding;
+package bicycles.specialriding;
 
-import specbicycle.BicycleType;
+import bicycles.specbicycle.BicycleType;
 import bicycles.Bicycle;
 
 import java.util.ArrayList;
