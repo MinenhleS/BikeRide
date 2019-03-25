@@ -1,6 +1,6 @@
-package FunRidePack;
+package FRiding;
 
-import SpecificationPackage.BicycleType;
+import SpecBicycle.BicycleType;
 import bicycles.Bicycle;
 
 import java.util.ArrayList;

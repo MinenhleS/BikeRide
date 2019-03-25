@@ -1,9 +1,9 @@
 package bicycles;
 
-import FunRidePack.FunRide;
-import SpecificationPackage.BicycleFromSpec;
-import SpecificationPackage.BicycleSpecification;
-import SpecificationPackage.BicycleType;
+import FRiding.FunRide;
+import SpecBicycle.BicycleFromSpec;
+import SpecBicycle.BicycleSpecification;
+import SpecBicycle.BicycleType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FunRideTest {
 
     @Test
-    public void ShouldRunSpecFunRide() {
+    public void shouldRunSpecFunRide() {
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
@@ -39,7 +39,7 @@ public class FunRideTest {
 
 
     @Test
-    public void ShouldAvoidDuplicationOfRide() {
+    public void shouldAvoidDuplicationOfRide() {
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
@@ -48,7 +48,7 @@ public class FunRideTest {
         Bicycle bicycle2 = new BicycleFromSpec(mountainBikeSpec);
         Bicycle bicycle3 = new BicycleFromSpec(tandemBikeSpec);
 
-        FunRide funRide = new FunRide(3);
+        FunRide funRide = new FunRide(9);
 
         funRide.accept(bicycle2);
         funRide.accept(bicycle3);
