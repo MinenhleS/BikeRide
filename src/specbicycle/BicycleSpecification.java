@@ -1,4 +1,4 @@
-package SpecBicycle;
+package specbicycle;
 
 public class BicycleSpecification  {
     private int accelerationSpeed;

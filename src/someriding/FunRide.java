@@ -1,6 +1,6 @@
-package FRiding;
+package someriding;
 
-import SpecBicycle.BicycleType;
+import specbicycle.BicycleType;
 import bicycles.Bicycle;
 
 import java.util.ArrayList;

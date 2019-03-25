@@ -1,4 +1,4 @@
-package AllBikes;
+package allrides;
 
 import bicycles.Bicycle;
 import bicycles.BikeRide;

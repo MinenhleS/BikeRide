@@ -1,16 +1,16 @@
-package AllBikes;
+package allrides;
 
 import bicycles.Bicycle;
 import bicycles.BikeRide;
 
-public class BikeRideOne implements BikeRide {
+public class BikeRidetwo implements BikeRide {
 
     private final Bicycle bicycle;
 
 //    Bicycle bicycle = new Bicycle();
 
 
-    public BikeRideOne(Bicycle bicycle) {
+    public BikeRidetwo(Bicycle bicycle) {
         this.bicycle = bicycle;
     }
 
@@ -22,14 +22,14 @@ public class BikeRideOne implements BikeRide {
     public void ride() {
         this.bicycle.accelerate();
         this.bicycle.accelerate();
+        this.bicycle.brake();
         this.bicycle.accelerate();
         this.bicycle.brake();
         this.bicycle.brake();
+        this.bicycle.brake();
         this.bicycle.accelerate();
+        this.bicycle.brake();
     }
 
 
-    public boolean type() {
-        return true;
-    }
 }
